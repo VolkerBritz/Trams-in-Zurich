@@ -573,22 +573,9 @@ def dist_lines(lines,data,line_colors):
 
 
     
-def boxplot_lines(lines,data):
-    table=table_delays_lines(lines,data)
-    table.plot(kind="box",sym="",color=dict(boxes="black",whiskers="black",medians="black",caps="black"),
-         title="Distribution of delays accumulated until endpoint of the line")
+
     
-    
-    
-    
-    
-#    boxp=plt.boxplot(table,sym="",patch_artist=True)
-#    colors=[]
-#    for line in lines:
-#        colors.append(line_colors[line])
-#    for patch, color in zip(boxp['boxes'], colors):
-#        patch.set_facecolor(color)
-#    plt.show() 
+
     
     
 
