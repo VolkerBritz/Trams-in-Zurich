@@ -1,4 +1,4 @@
-# Trams-in-Zurich
+# Delays of trams in Zürich
 
 The city of Zürich provides extensive data on scheduled and actual times at which trams arrive and depart from stops.
 One such dataset is made available per week on their open data website:
